@@ -1,54 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página con Bootstrap</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> <!-- Tu archivo CSS personalizado -->
+    <title>Todo sobre Gatos</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
 </head>
 <body>
-    <header class="bg-primary text-white text-center py-4">
-        <h1>Mi Portafolio</h1>
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Todo sobre Gatos</h1>
+        <p>Descubre el fascinante mundo de los felinos</p>
     </header>
-    
-    <main class="container mt-4">
-        <section id="about" class="mb-4">
-            <h2>Sobre Mí</h2>
-            <p>Aquí puedes agregar información sobre ti, tu portafolio, producto, negocio o empresa.</p>
+
+    <!-- Main content -->
+    <main class="container mt-5">
+        <!-- About Cats Section -->
+        <section id="about-cats" class="mb-5">
+            <h2>¿Qué son los Gatos?</h2>
+            <p>Los gatos son animales domésticos adorados por millones de personas en todo el mundo. Con su elegancia, independencia y cariño, se han ganado un lugar especial en nuestros hogares y corazones.</p>
+            <img src="https://via.placeholder.com/800x400" class="img-fluid rounded mb-4" alt="Gatos">
         </section>
 
-        <section id="services" class="mb-4">
-            <h2>Servicios</h2>
+        <!-- Types of Cats Section -->
+        <section id="types-of-cats" class="mb-5">
+            <h2>Tipos de Gatos</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Gato Persa">
                         <div class="card-body">
-                            <h5 class="card-title">Servicio 1</h5>
-                            <p class="card-text">Descripción del servicio 1.</p>
+                            <h5 class="card-title">Gato Persa</h5>
+                            <p class="card-text">El Gato Persa es conocido por su pelaje largo y su carácter tranquilo. Es una de las razas más populares.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Gato Siamés">
                         <div class="card-body">
-                            <h5 class="card-title">Servicio 2</h5>
-                            <p class="card-text">Descripción del servicio 2.</p>
+                            <h5 class="card-title">Gato Siamés</h5>
+                            <p class="card-text">El Gato Siamés es famoso por su elegancia y sus ojos azules. Es una raza inteligente y social.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
+                        <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Gato Bengalí">
                         <div class="card-body">
-                            <h5 class="card-title">Servicio 3</h5>
-                            <p class="card-text">Descripción del servicio 3.</p>
+                            <h5 class="card-title">Gato Bengalí</h5>
+                            <p class="card-text">El Gato Bengalí se caracteriza por su pelaje exótico que recuerda a un leopardo. Es muy activo y juguetón.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
-        <section id="contact">
+
+        <!-- Services Section -->
+        <section id="services" class="mb-5">
+            <h2>Servicios Relacionados con Gatos</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Adopción de Gatos</h5>
+                            <p class="card-text">Encuentra el gato perfecto para ti en nuestras asociaciones de adopción.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Cuidados Veterinarios</h5>
+                            <p class="card-text">Consulta con nuestros veterinarios especializados en felinos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Accesorios y Juguetes</h5>
+                            <p class="card-text">Explora nuestra tienda de juguetes y accesorios para gatos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="mb-5">
             <h2>Contacto</h2>
             <form>
                 <div class="mb-3">
@@ -67,9 +110,10 @@
             </form>
         </section>
     </main>
-    
+
+    <!-- Footer -->
     <footer class="bg-dark text-white text-center py-4">
-        <p>&copy; 2024 Mi Portafolio</p>
+        <p>&copy; 2024 Todo sobre Gatos</p>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
