@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<HTML>
-  <head>
-    <title>Pagina WEB de gatos</title>
-  </head>
-  <body>
-    <div id="una capa">
-      <h1>HolaPagina!</h1>
-      <p>Gatos.</p>
-    </div>
-  </body>  
-</HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página con Bootstrap</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Tu archivo CSS personalizado -->
+</head>
+<body>
+    <header class="bg-primary text-white text-center py-4">
+        <h1>Mi Portafolio</h1>
+    </header>
+    
+    <main class="container mt-4">
+        <section id="about" class="mb-4">
+            <h2>Sobre Mí</h2>
+            <p>Aquí puedes agregar información sobre ti, tu portafolio, producto, negocio o empresa.</p>
+        </section>
+
+        <section id="services" class="mb-4">
+            <h2>Servicios</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Servicio 1</h5>
+                            <p class="card-text">Descripción del servicio 1.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Servicio 2</h5>
+                            <p class="card-text">Descripción del servicio 2.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Servicio 3</h5>
+                            <p class="card-text">Descripción del servicio 3.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Mi Portafolio</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
